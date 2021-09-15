@@ -1,0 +1,4 @@
+#kvm
+-A INPUT -s 172.30.0.0/24 -p tcp -m multiport --dports 16509 -j ACCEPT
+-A INPUT -s 172.30.0.0/24 -p tcp -m multiport --dports 49152:49261 -j ACCEPT
+-A INPUT -s 172.30.0.0/24 -p tcp -m multiport --dports 5900:5999 -j ACCEPT
