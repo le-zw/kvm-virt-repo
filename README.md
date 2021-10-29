@@ -105,6 +105,4 @@ python deploy-vm-centos7.py --conf deploy-vm.conf --name vm-centos7 --tmpl cento
                             Like '/root/id_rsa.pub,other_key_file'. Those public
                             key files's content will be added to vm's
                             /root/.ssh/authorized_keys.
-
-    Author: bougou@126.com
 ```
